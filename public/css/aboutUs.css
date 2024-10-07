@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden;
+}
+.aboutus-container {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.aboutus-container h2 {
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+}
+
+.aboutus-heading {
+    display: inline;
+}
+.aboutus-heading-content {
+    color: #fff;
+    font-size: 22px;
+}
+.aboutus-heading,
+.aboutus-heading2 {
+    color: white;
+    font-size: 61px;
+}
+
+.aboutus-heading2 {
+    margin: 45px 0px 10px 0px;
+}
+
+.aboutus-heading-img {
+    margin-bottom: 25px;
+    width: 40%;
+}
+
+.aboutus-content {
+    color: #bcbcbc;
+    font-size: 18px;
+    text-align: left;
+}
+
+.aboutus-wrap {
+    margin: 40px 0px 30px 0px;
+}
+.joinNowBtn {
+    font-family: "Roboto", Sans-serif !important;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #d9aa5a !important;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 15px 15px 15px;
+    margin-top: 30px;
+}
+.aboutus-container a {
+    text-decoration: underline;
+}
+
+.aboutus-container a:hover {
+    color: #a0a0a0;
+}
+
+.team {
+    margin: 40px 0px;
+}
+
+.team-mem-name {
+    color: #d9aa5a;
+    font-size: 25px;
+}
+
+.team-mem-designation {
+    color: #a0a0a0;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.team-mem-description {
+    color: #a0a0a0;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#teamMember1,
+#teamMember2 {
+    cursor: pointer;
+    color: white;
+}
+#teamMember1:hover,
+#teamMember2:hover {
+    text-decoration: underline;
+}
+#teamMemberContent1,
+#teamMemberContent2 {
+    text-align: left;
+}
+.teamMemContent {
+    text-align: left;
+}
+.teamMemImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .aboutus-heading,
+    .aboutus-heading2 {
+        font-size: 35px;
+    }
+    #teamMember1,
+    #teamMember2 {
+        width: 50%;
+        margin: 0 auto !important;
+        margin-top: 30px !important;
+    }
+    .aboutus-heading-img {
+        margin-bottom: 17px;
+        width: 40%;
+    }
+}

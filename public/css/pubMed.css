@@ -1,0 +1,17 @@
+.pubMedContainer h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.pubMedFormSubmit {
+    background-color: #d9aa5a !important;
+}
